@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+dataset/
+dataset_split/
+runs/
+*.pt
+
+# Secrets & local tooling
+.env
+.env.*
+!.env.example
+.claude/
+.DS_Store
+Thumbs.db
